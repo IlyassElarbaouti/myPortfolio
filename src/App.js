@@ -1,6 +1,6 @@
 import './App.css';
-import Main from './Main'
-import Cursor from './cursor'
+import Main from './main/Main'
+import Cursor from './cursor/Cursor'
 import Projects from './projects/Projects';
 function App() {
   return (
