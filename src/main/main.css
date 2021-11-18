@@ -1,0 +1,146 @@
+/*colors*/
+.white{
+   color:white;
+}
+.grey{
+    color:#797575;
+}
+.green{
+ color:#00FB52;
+}
+/*fonts*/
+.calibre{
+font-family: 'calibre',sans-serif;}
+.Semi{font-family: 'Semi',sans-serif;}
+.Light{font-family: 'Light',sans-serif;}
+
+
+/*header*/
+.header{
+    margin:15px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: -0.07cm;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu > h3{
+    margin-left: 3vw;
+}
+.menu > h3 > a{
+    text-decoration: none;
+    color:white;
+}
+.burger{
+    position: fixed;
+    top: 35px;
+    right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 20px;
+    width:20px;
+    padding: 10PX;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: ease-in 300ms;
+}
+.burgerSpan{
+    background-color: white;
+    transition: ease-in 300ms;
+}
+.burger1{
+      height: 2px;
+    width: 20px;
+}
+.burger2{
+      height: 2px;
+    width: 25px;
+}
+.burger3{
+      height: 2px;
+    width: 20px;
+}
+@media (max-width: 650px){
+  .menu{
+      display: none;
+  }
+  
+}
+@media (min-width: 650px){
+  .burger{
+      display: none;
+      
+  }
+  
+}
+.burger:hover .burgerSpan{
+        background-color: black;
+    }
+.burger:hover{
+    background-color: white;
+     
+    }
+
+
+
+/*hero*/
+
+
+.hero{
+    margin: 5% 15%;
+}
+section {
+  display: grid;
+}
+
+section > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+video{
+position: sticky;
+left:0
+}
+.heroSpan{
+    font-size: 4rem;
+    z-index: 2;
+    background-color: black;
+    mix-blend-mode: multiply;
+}
+.hero > button{
+    background-color:#00FB52 ;
+    border: none;
+    padding: 10px 30px ;
+    border-radius: 30px;
+      transition:ease-in 300ms;
+      
+   
+}
+
+/*button*/
+.hero > button >a{
+    text-decoration: none;
+      color: black;
+      transition:ease-in 300ms;
+}
+
+.hero > button:hover{
+    background-color: black;
+    border: solid 1px white;
+    cursor: pointer;
+}
+.hero > button:hover a{
+    color:white
+    
+}
+
+

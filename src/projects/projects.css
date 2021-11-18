@@ -1,0 +1,27 @@
+/*colors*/
+.white{
+   color:white;
+}
+.grey{
+    color:#797575;
+}
+.green{
+ color:#00FB52;
+}
+/*fonts*/
+.calibre{
+font-family: 'calibre',sans-serif;}
+.Semi{font-family: 'Semi',sans-serif;}
+.Light{font-family: 'Light',sans-serif;}
+
+
+.projects{
+    margin: 0 15vw;
+}
+
+.projectsRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

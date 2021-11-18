@@ -1,0 +1,39 @@
+.calibre{
+font-family: 'calibre',sans-serif;}
+.Semi{font-family: 'Semi',sans-serif;}
+.Light{font-family: 'Light',sans-serif;}
+
+.projectContainer{
+    display: flex;
+    
+}
+
+.project{
+    height: 400px;
+    width:300px;
+    background-color: #039735;
+    border-radius: 5px;
+    color: black;
+}
+.title{
+    
+    color: black;
+    -webkit-text-stroke:0.5px white;
+    font-size: 40px;
+    transition: linear 400ms;
+}
+
+.title:hover{   
+    color: white ;
+        -webkit-text-stroke:0px;
+        transform: scale(12px);
+        transform: translateX(5px);
+}
+.projectRight{
+    color: white;
+    margin-left: 10vw;
+}
+
+
+
+    

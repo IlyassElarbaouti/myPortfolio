@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Calibre';
+  src: local('Calibre'), url(./fonts/Calibre-Regular.ttf) format('truetype');}
+@font-face {
+  font-family: 'Semi';
+  src: local('Semi'), url(./fonts/Calibre-Semibold.ttf) format('truetype');}
+@font-face {
+  font-family: 'Light';
+  src: local('Light'), url(./fonts/Calibre-Light.ttf) format('truetype');}
