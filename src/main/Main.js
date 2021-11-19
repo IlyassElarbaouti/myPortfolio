@@ -4,20 +4,20 @@ const Main = () => {
   return (
     <div className="Main">
       <div className="header">
-        <h1 className="logo green calibre">.ilyass( )</h1>
+        <h1 className="green calibre">ilyass</h1>
         <div className="menu white Semi">
           <h3>
-            <a className="menuLink" href="#">
+            <a className="menuLink" href="#projects">
               .projects()
             </a>
           </h3>
           <h3>
-            <a className="menuLink" href="#">
+            <a className="menuLink" href="#social">
               .social()
             </a>
           </h3>
           <h3>
-            <a className="menuLink" href="#">
+            <a className="menuLink" href="#contact">
               .contact()
             </a>
           </h3>
@@ -50,7 +50,7 @@ const Main = () => {
           based in Kharkiv, Ukraine.
         </h4>
         <button>
-          <a href="#">HIRE ME</a>
+          <a href="#contact">HIRE ME</a>
         </button>
       </div>
     </div>
