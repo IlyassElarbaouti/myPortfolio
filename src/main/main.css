@@ -17,15 +17,21 @@ font-family: 'calibre',sans-serif;}
 
 /*header*/
 .header{
-    margin:15px 5vw;
+    margin:10px 5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top:0;
+    position: sticky;
+    z-index: 3;
+    background-color: black;
 }
 .logo{
     letter-spacing: -0.07cm;
 }
 .menu{
+
+    margin-right: 2vw;
     display: flex;
     justify-content: space-between;
     

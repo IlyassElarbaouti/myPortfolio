@@ -7,13 +7,13 @@ const Main = () => {
         <h1 className="green calibre">ilyass</h1>
         <div className="menu white Semi">
           <h3>
-            <a className="menuLink" href="#projects">
-              .projects()
+            <a className="menuLink" href="#hero">
+              .about()
             </a>
           </h3>
           <h3>
-            <a className="menuLink" href="#social">
-              .social()
+            <a className="menuLink" href="#projects">
+              .projects()
             </a>
           </h3>
           <h3>

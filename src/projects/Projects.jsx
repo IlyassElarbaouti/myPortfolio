@@ -27,7 +27,7 @@ const Projects = () => {
         />
       )} */}
       <p className="grey calibre">My projects - 📁</p>
-      <h1 className="white calibre">Stuff I’ve worked on 👇</h1>
+      <h1 className="white title calibre">Stuff I’ve worked on 👇</h1>
       {/* this is the projects grid */}
       <div className="grid projects-grid">
         <a
@@ -64,7 +64,7 @@ const Projects = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://ilyasselarbaouti.github.io/gromcodeProject2/index.html"
+          href="https://elegant-einstein-6cc808.netlify.app"
           aria-label="sky-scanner"
         >
           <img id="5" src={skyScanner} alt="" />
